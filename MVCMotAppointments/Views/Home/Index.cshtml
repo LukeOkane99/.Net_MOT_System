@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>NI MOT System</h1>
+    <p class="lead">Find information regarding details for MOT centres and associated appointments in NI.</p>
+    @using (Html.BeginForm("Index", "MotCentre", FormMethod.Get))
+    {
+        <p><input type="submit" class="btn btn-primary btn-lg" value="View MOT Centres in NI" /></p>
+    }
+    @using (Html.BeginForm("Index", "Appointment", FormMethod.Get))
+    {
+        <p><input type="submit" class="btn btn-primary btn-lg" value="View MOT Appointments in NI" /></p>
+    }
+</div>
