@@ -1,8 +1,10 @@
 # .Net_MOT_System
 An MOT booking system which contains MOT Centres in NI and associated MOT appointments
 
+## Technology used
 Developed using C# and the ASP.Net MVC Web Framework
 
+## Front-end views
 ![image](https://user-images.githubusercontent.com/72694473/110524040-cc2ba300-810a-11eb-912d-d91f9317ec4c.png)
 
 
